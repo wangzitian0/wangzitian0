@@ -1,11 +1,12 @@
----
 title: Hello World
-date: 2017-04-04 04:04:04
 tags:
+  - Others
+categories: []
+date: 2014-04-04 04:04:00
 ---
-
-
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+
+<!-- more -->
 
 # Quick Start
 
@@ -14,6 +15,7 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 ``` bash
 $ hexo new "My New Post"
 ```
+test admin
 
 More info: [Writing](https://hexo.io/docs/writing.html)
 
@@ -45,7 +47,6 @@ More info: [Deployment](https://hexo.io/docs/deployment.html)
 
 
 
-
 # Do some test 
 
 ## codes && quatos && images
@@ -63,4 +64,3 @@ for i range(0:10):
 
 {% img full-image /images/gopher.png 100 100 %}
 {% img ggggtest /images/gopher.png 180 180 'title text' 'alt text' %}
-

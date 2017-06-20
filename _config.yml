@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 田_田
-subtitle: 记录全栈工程师的自我修养
-description: 我的博客
-author: WZT_000
-language: zh-CN
+title: 全栈之路
+subtitle: 田_田的博客
+description: 创新需要在一切发生之前研究结局!
+author: 田_田
+language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Nlvi
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -91,12 +91,6 @@ image_sizes:
       allowEnlargement: true
   defaultProfile: body
 
-  # Settings for  TOC(Table Of Content)
-  toc:
-    maxdepth: 3
-    class: toc
-    slugify: transliteration
-    anchor:
-      position: after
-      symbol: '#'
-      style: header-anchor
+# Settings for  TOC(Table Of Content)
+toc:
+  maxdepth: 3
