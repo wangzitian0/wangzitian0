@@ -194,14 +194,19 @@ HEAD / OPTION 作为简单请求，在 RESTful 不重要，毕竟，RESTful 可�
 ```
 
 - 服务的 URL 设计
+服务应该使用名词，比如计算应该使用calculation，不应该使用calc或者calculate。
 
 ```
 //应该根据幂等性来使用GET 和 Post，典型的就是一个函数式计算任务和一个队列提交任务。
-GET /distance-calc?lats=47.480&lngs=-122.389&late=37.108&lnge=-122.448
+GET /distance-calculation?lats=47.480&lngs=-122.389&late=37.108&lnge=-122.448
 
-POST /commit-to-msg
+POST /tasks
 [{"from":0,"to":1,"text":"abc"},{},{}...]
 ```
+
+设计的时候应该要保证服务可以单独部署，对多个资源操作的事务由单独部署的服务来管理。
+
+
 
 - 各HTTP方法成功处理后Response的数据格式：
 ```
@@ -223,9 +228,14 @@ URI中的名词表示资源集合，使用复数形式。
 ```
 
 - 避免层级过深的URI
+一般根据id导航。过深的导航容易导致url膨胀，不易维护。尽量使用查询参数代替路径中的实体导航。 
 ```
-一般根据id导航。过深的导航容易导致url膨胀，不易维护，如 GET /zoos/1/areas/3/animals/4，尽量使用查询参数代替路径中的实体导航，如GET /animals?zoo=1&area=3；
+相对不好的设计
+GET /zoos/1/areas/3/animals/4
+相对好的设计
+GET /animals?zoo=1&area=3；
 ```
+
 
 - 对Composite资源的访问
 ```
