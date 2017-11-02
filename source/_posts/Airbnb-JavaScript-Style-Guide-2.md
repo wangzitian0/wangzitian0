@@ -1,7 +1,10 @@
 title: Airbnb JavaScript Style Guide (2)
 author: 田_田
-date: 2017-08-08 11:43:04
 tags:
+  - JavaScript
+  - Language
+categories: []
+date: 2017-08-08 11:43:00
 ---
 *A mostly reasonable approach to JavaScript*
 *一个最讲道理的JavaScript方法论*

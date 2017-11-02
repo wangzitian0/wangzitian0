@@ -546,7 +546,7 @@ date: 2017-08-08 16:25:00
     ```
 
 
-## jQuery
+## j Query
 
   - [26.1] Prefix jQuery object variables with a `$`. jscs: [`requireDollarBeforejQueryAssignment`](http://jscs.info/rule/requireDollarBeforejQueryAssignment)
   jQuery对象用美元符号开头更好。
@@ -742,4 +742,3 @@ date: 2017-08-08 16:25:00
 
   - [JavaScript Air](https://javascriptair.com/)
   - [JavaScript Jabber](https://devchat.tv/js-jabber/)
-

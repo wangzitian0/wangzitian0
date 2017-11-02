@@ -4,6 +4,8 @@ tags:
 categories: []
 date: 2017-01-04 04:04:00
 ---
+{% img ggggtest /images/gopher2.png 600 600 'title text' 'alt text' %}
+
 之后陆陆续续把原来在 QQ 空间和 CSDN blog里的东西陆陆续续迁过来，Github page 真是好用啊。。
 
 <!-- more -->
@@ -63,6 +65,4 @@ for i range(0:10):
     print i
 {% endcodeblock %}
 
-
-{% img full-image /images/gopher.png 100 100 %}
-{% img ggggtest /images/gopher.png 180 180 'title text' 'alt text' %}
+{% img full-image /images/gopher2.png 100 100 %}
