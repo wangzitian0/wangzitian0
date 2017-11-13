@@ -1,7 +1,10 @@
 title: Embercli 文档（1）：开始
 author: 田_田
-date: 2017-11-09 20:49:07
 tags:
+  - Ember
+  - Javascript
+categories: []
+date: 2017-11-07 20:49:00
 ---
 embercli
 The command line interface for ambitious web applications.
