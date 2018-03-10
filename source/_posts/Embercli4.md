@@ -1,10 +1,10 @@
-title: Embercli 文档（4）：资源编译 & 依赖管理
+title: Embercli 文档（4）：资源编译 + 依赖管理
 author: 田_田
 tags:
   - Ember
   - Javascript
 categories: []
-date: 2017-11-13 11:39:00
+date: 2013-11-13 11:39:00
 ---
 embercli
 翻译自https://ember-cli.com/，embercli 文档。

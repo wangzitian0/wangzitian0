@@ -4,7 +4,7 @@ tags:
   - Ember
   - Javascript
 categories: []
-date: 2017-11-09 14:16:00
+date: 2013-11-09 14:16:00
 ---
 embercli
 翻译自https://ember-cli.com/，embercli 文档。

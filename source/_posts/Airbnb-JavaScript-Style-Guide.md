@@ -4,7 +4,7 @@ tags:
   - JavaScript
   - Language
 categories: []
-date: 2017-07-28 16:22:00
+date: 2013-07-28 16:22:00
 ---
 
 *A mostly reasonable approach to JavaScript*

@@ -4,7 +4,7 @@ tags:
   - JavaScript
   - Language
 categories: []
-date: 2017-08-08 11:43:00
+date: 2013-08-08 11:43:00
 ---
 *A mostly reasonable approach to JavaScript*
 *一个最讲道理的JavaScript方法论*

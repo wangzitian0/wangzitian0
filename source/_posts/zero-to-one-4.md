@@ -1,12 +1,12 @@
 title: 从零到一建站（4）
 author: 田_田
 tags:
-  - zero2one
-  - gin
   - HTML
+  - zero2one
   - golang
+  - gin
 categories: []
-date: 2017-10-26 17:58:00
+date: 2013-07-26 17:58:00
 ---
 之前去美国出差，这个项目被耽搁了俩月，现在重新开始搞。被人吐槽了，所以我要重新梳理一下这些代码，做得更加符合 golang 的国际规范一点。
 

@@ -4,7 +4,7 @@ tags:
   - Ember
   - Javascript
 categories: []
-date: 2017-11-07 20:49:00
+date: 2013-11-07 20:49:00
 ---
 embercli
 The command line interface for ambitious web applications.

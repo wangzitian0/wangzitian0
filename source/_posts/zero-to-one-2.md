@@ -1,12 +1,12 @@
 title: 从零到一建站（2）
 author: 田_田
 tags:
-  - zero2one
   - HTML
+  - zero2one
   - golang
   - gin
 categories: []
-date: 2017-07-12 13:49:00
+date: 2013-07-12 13:49:00
 ---
 逛 github 的时候发现这个项目了，提供了一个不错的 spec，后续的工作围绕它的 spec 来做：[realworld](https://github.com/gothinkster/realworld)
 

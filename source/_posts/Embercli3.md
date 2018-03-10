@@ -1,10 +1,10 @@
-title: Embercli 文档（3）：Ember Data & 测试
+title: Embercli 文档（3）：Ember Data + 测试
 author: 田_田
 tags:
   - Ember
   - Javascript
 categories: []
-date: 2017-11-09 21:14:00
+date: 2013-11-09 21:14:00
 ---
 embercli
 翻译自https://ember-cli.com/，embercli 文档。

@@ -1,12 +1,12 @@
 title: 从零到一建站（3）
 author: 田_田
 tags:
-  - zero2one
   - HTML
+  - zero2one
   - golang
   - gin
 categories: []
-date: 2017-07-26 17:31:00
+date: 2013-07-26 17:31:00
 ---
 这一篇开始设计具体的业务模型。主要是数据库的 one2one，one2many，many2many
 
