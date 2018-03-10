@@ -77,6 +77,12 @@ search:
   field: all
 
 
+algolia:
+  applicationID: '1PWF5BJPP1'
+  apiKey: '6a2714c5b665823e7132db2aedb81233'
+  indexName: 'wangzitian0.github.io'
+  chunkSize: 5000
+
 # Configuration for hexo-image-sizes
 image_sizes:
   pattern: !!js/regexp /\.(gif|jpg|jpeg|png)$/i
@@ -94,3 +100,12 @@ image_sizes:
 # Settings for  TOC(Table Of Content)
 toc:
   maxdepth: 3
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
