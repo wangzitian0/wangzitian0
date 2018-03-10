@@ -1,7 +1,7 @@
 username = "wangzitian0" # GitHub 用户名
-new_token = "8ab47e01c423c0c882eaf850b0c5c90a62d3c1d0"  # GitHub Token
+token = "f42ebac7667f21e61e661877a39da534b07c032c"  # GitHub Token
 repo_name = "wangzitian0.github.io" # 存放 issues
-sitemap_url = "https://wangzitian0.github.io/sitemap.xml" # sitemap
+sitemap_url = "https://wangzitian0.github.io/sitemap.xml?cache=01" # sitemap
 kind = "gitment" # "Gitalk" or "gitment"
 
 require 'open-uri'
