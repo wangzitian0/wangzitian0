@@ -432,7 +432,7 @@ math:
 
 # Han Support
 # Dependencies: https://github.com/theme-next/theme-next-han
-han: false
+han: true
 
 # Pangu Support
 # Dependencies: https://github.com/theme-next/theme-next-pangu
@@ -607,12 +607,12 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: itw5YW53yzX17tr3WAdRd9Dd-gzGzoHsz
+  app_key: qLjOt8jjizQl0ys5OSdwf10Y
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   security: true
-  betterPerformance: false
+  betterPerformance: true
 
 # Another tool to show number of visitors to each article.
 # visit https://console.firebase.google.com/u/0/ to get apiKey and projectId

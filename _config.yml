@@ -68,9 +68,10 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
+- type: git
   repository: git@github.com:wangzitian0/wangzitian0.github.io.git
   branch: master
+- type: leancloud_counter_security_sync
 
 search:
   path: search.xml
@@ -106,6 +107,13 @@ feed:
   path: atom.xml
   limit: 20
   hub:
-  content:
-  content_limit: 140
+  content: true
+  content_limit: 300
   content_limit_delim: ' '
+
+leancloud_counter_security:
+  enable_sync: true
+  app_id: itw5YW53yzX17tr3WAdRd9Dd-gzGzoHsz
+  app_key: qLjOt8jjizQl0ys5OSdwf10Y
+  username: wangzitian0 # Will be asked while deploying if is left blank
+  password: # Recommmended to be left blank. Will be asked while deploying if is left blank
