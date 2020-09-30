@@ -477,29 +477,56 @@ valine:
   pageSize: 10 # pagination size
 
 
-# Support for youyan comments system.
-# You can get your uid from http://www.uyan.cc
-#youyan_uid: your uid
 
-# Support for LiveRe comments system.
-# You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+# Multiple Comment System Support
+comments:
+  # Available values: tabs | buttons
+  style: tabs
+  # Choose a comment system to be displayed by default.
+  # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
+  active: gitalk
+  # Setting `true` means remembering the comment system selected by the visitor.
+  storage: true
+  # Lazyload all comment systems.
+  lazyload: true
+  # Modify texts or order for any navs, here are some examples.
+  nav:
+    #disqus:
+    #  text: Load Disqus
+    #  order: -1
+    #gitalk:
+    #  order: -2
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
-gitment:
+#gitment:
+#  enable: true
+#  mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
+#  count: true # Show comments count in post meta area
+#  lazy: false # Comments lazy loading with a button
+#  cleanly: true # Hide 'Powered by ...' on footer, and more
+#  language: zh-Hans # Force language, or auto switch by theme
+#  github_user: wangzitian0 # MUST HAVE, Your Github Username
+#  github_repo: wangzitian0.github.io # MUST HAVE, The name of the repo you use to store Gitment comments
+#  client_id: 430ac7804d5cf4a7c6c2 # MUST HAVE, Github client id for the Gitment
+#  client_secret: 7161577dd3f89244231f2373a6ea333cfb5e3834 # EITHER this or proxy_gateway, Github access secret token for the Gitment
+#  proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
+#  redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
+
+# Gitalk
+# For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
+gitalk:
   enable: true
-  mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
-  count: true # Show comments count in post meta area
-  lazy: false # Comments lazy loading with a button
-  cleanly: true # Hide 'Powered by ...' on footer, and more
-  language: zh-Hans # Force language, or auto switch by theme
-  github_user: wangzitian0 # MUST HAVE, Your Github Username
-  github_repo: wangzitian0.github.io # MUST HAVE, The name of the repo you use to store Gitment comments
-  client_id: 430ac7804d5cf4a7c6c2 # MUST HAVE, Github client id for the Gitment
-  client_secret: 7161577dd3f89244231f2373a6ea333cfb5e3834 # EITHER this or proxy_gateway, Github access secret token for the Gitment
-  proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
-  redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
+  github_id: wangzitian0 # GitHub repo owner
+  repo: wangzitian0.github.io # Repository name to store issues
+  client_id: 430ac7804d5cf4a7c6c2 # GitHub Application Client ID
+  client_secret: 7161577dd3f89244231f2373a6ea333cfb5e3834 # GitHub Application Client Secret
+  admin_user: wangzitian0# GitHub repo owner and collaborators, only these guys can initialize gitHub issues
+  distraction_free_mode: true # Facebook-like distraction free mode
+  # Gitalk's display language depends on user's browser or system environment
+  # If you want everyone visiting your site to see a uniform language, you can set a force language value
+  # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
+  language: zh-CN
 
 # Baidu Share
 # Available value:

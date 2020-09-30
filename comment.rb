@@ -1,5 +1,5 @@
 username = "wangzitian0" # GitHub 用户名
-token = "f42ebac7667f21e61e661877a39da534b07c032c"  # GitHub Token
+token = "ca7a094294e28f45953869a69191fa2be7b5123d"  # GitHub Token #gitignore
 repo_name = "wangzitian0.github.io" # 存放 issues
 sitemap_url = "https://wangzitian0.github.io/sitemap.xml?cache=01" # sitemap
 kind = "gitment" # "Gitalk" or "gitment"
