@@ -243,10 +243,13 @@ ember server
 
 #### app/index.html
 
-`app/index.html` 文件放置了你的基础架构。它是一个基于 DOM 结构的布局，设置了标题属性，引入了样式表。另外，`app/index.html`包括多个hook ```
+`app/index.html` 文件放置了你的基础架构。它是一个基于 DOM 结构的布局，设置了标题属性，引入了样式表。另外，`app/index.html`包括多个hook
+
+```
 {{content-for 'head'}}
 {{content-for 'body'}}
 ```
+
 可以被插件注入到应用的`head` 或 `body`。这些hook需要留在合适的位置，你也可以安全地忽略你没有操作的插件。
 
 ### 插件

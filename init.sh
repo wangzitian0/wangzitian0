@@ -1,6 +1,3 @@
-mkdir themes/next
-git clone https://github.com/theme-next/hexo-theme-next themes/next
-git clone https://github.com/theme-next/theme-next-algolia-instant-search source/lib/algolia-instant-search
 git clone https://github.com/theme-next/theme-next-han source/lib/Han
 
 
